@@ -1,6 +1,6 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This project implements a web based applicaion to allow raising and allocation of transport booking requests.
 
 ### What is this repository for? ###
 
