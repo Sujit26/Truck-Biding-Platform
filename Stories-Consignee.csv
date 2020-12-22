@@ -1,0 +1,29 @@
+﻿Story name,User want,So that,Epics,Component,Points,Notes,story_id,Status,Task,Sprint,Sprint copy
+"S68: As a CONSIGNEE, I should be able to signup using my phone number","As a CONSIGNEE, I should be able to signup using my phone number","So that I can access the unions
+",E2: Onboarding CONSIGNEE,Consignee,,"The customer provides a phone number and a name for account creation.
+Post that,  we validate the number using OTP and create an account upon successful validation",68,ToDo,,,
+"S69: As a CONSIGNEE, I should be able to reset my password using OTP","As a CONSIGNEE, I should be able to reset my password using OTP",Sp that I can recover my account in case of loss of password,E22: Account recovery,Consignee,,,69,ToDo,,,
+"S70: As a CONSIGNEE, I should be able to set my contact and address","As a CONSIGNEE, I should be able to set my contact and address",So that the UNION owner can send truck to my address,E2: Onboarding CONSIGNEE,Consignee,,,70,ToDo,,,
+"S71: As a CONSIGNEE, I should be able to add my UPI account","As a CONSIGNEE, I should be able to add my UPI ACCOUNT
+",So that I can seamlessly make payments to the store owner,E87: Setup Payments,Consignee,,,71,ToDo,,,
+"S73: As a CONSIGNEE, I should be able to update my address","As a CONSIGNEE, I should be able to update my address",So that the store owner has the correct address for delivery,E2: Onboarding CONSIGNEE,Consignee,,,73,ToDo,,,
+"S77: As a CONSIGNEE, I should be able to search for the delivery system from my pickup address to delivery address in given date","As a CONSIGNEE, I should be able to search for the delivery system from my pickup address to delivery address in given date","so that i can get information about the devliery 
+
+like
+1) cost
+2) distance",E91: Discover UNIONS,Consignee,,,77,ToDo,,,
+"S78: As a CONSIGNEE, I should be able to see all the listed UNIONS","As a CONSIGNEE, I should be able to see all the listed UNIONS",So that I can select the UNION ,,Consignee,,,78,ToDo,,,
+"S81: As a CONSIGNEE, I should be able to order truck with given load capacity"," As a CONSIGNEE, I should be able to order truck with given load capacity",so that i can order ,,Consignee,,,81,ToDo,,,
+"S82: As a CONSIGNEE, I should be able to confirm my consigment before booking.","As a CONSIGNEE, I should be able to confirm my consigment before booking",So that I can place a consignment to a the union,E25: Place consignment,Consignee,,,82,ToDo,,,
+"S83: As a CONSIGNEE, I should be able to see the status of all my past consignments","As a CONSIGNEE, I should be able to see the status of all my past consignments",So that I can keep a track of my consignments,E86: Track Consignment,Consignee,,,83,ToDo,,,
+"S84: As a CONSIGNEE, I should be able to see the status of my current consignment","As a CONSIGNEE, I should be able to see the status of my current consginment",So that I can keep and track and update them if required,E86: Track Consignment,Consignee,,,84,ToDo,,,
+"S86: As a CONSIGNEE, I should be able to add notes to my consginment","As a CONSIGNEE, I should be able to add notes to my consginment",So that I can let UNION's owner know anything specific that needs to be taken care of,E26: Update Consignment,Consignee,,,86,ToDo,,,
+"S87: As a CONSIGNEE, I should be able to cancel my consignment before it accepted by TRANSPORT AGREGATOR","As a CONSIGNEE, I should be able to cancel my consignment before it accepted by TRANSPORT AGGREGATOR",So that I can avoid problems for union's owner to deliver orders no longer required,E38: Cancel Consignment,Consignee,,,87,ToDo,,,
+"S89: As a CONSIGNEE, I should be able to make a payment for my consignment using UPI","As a CONSIGNEE, I should be able to make a payment for my order using UPI",So that I can make pre payments for the consignment,E88: Make Payments,Consignee,,,89,ToDo,,,
+"S92: As a CONSIGNEE, I should be able to login using a phone number","As a CONSIGNEE, I should be able to login using a phone number",So that I can access a the union,E2: Onboarding CONSIGNEE,Consignee,,"I need to provide my phone number for the authentication.
+We use an OTP to authenticate the user,",92,In Progress,,,
+"S93: As CONSIGNEE, I can contact my consignment's UNION
+
+",To check update consignment status,"He/she can take chose selectively, know about consignment status",E86: Track Consignment,Consignee,,,93,ToDo,,,
+"S94: As CONSIGNEE, i can logout from app",Logout From app,He will not be using there services,,Consignee,,,94,ToDo,,,
+"S110: As a CONSIGNEE, i can use this system on guest mode","As a CONSIGNEE, i can use this system on guest mode",he can search & get to know about the,,Consignee,,,,ToDo,,,
