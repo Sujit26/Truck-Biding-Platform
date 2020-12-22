@@ -1,6 +1,6 @@
 # README #
 
-This project implements a web based applicaion to allow raising and allocation of transport booking requests.
+This branch will have all documentation of our system.
 
 ### What is this repository for? ###
 

@@ -1,0 +1,76 @@
+﻿Story name,User want,So that,Epics,Component,Points,Notes
+"S66: As a TRANSPORT AGGREGATOR, i should able send otp for develery confirmation to user",TRANSPORT AGGREGATOR wants to send delivery code to conginee ,their is proper confirmation of way of consignment,Consignment Delivery,Transport Aggregator,,
+"S1: As a Transport Aggregator, I want to register on the platform using my phone number
+","As a Transport Aggregator, I want to register on the platform using my phone number",So that I can create my account and start managing my union,E3: Onboarding Transport Aggregator,Transport Aggregator,,"Fields required to signup
+
+Phone Number with Country Code
+Name
+
+The TRANSPORT AGGREGATOR needs to enter an OTP post entering the data to complete the account creation."
+"S2: As a Transport Aggregator, I want to be able to login with my phone number","As a Transport Aggregator, I want to be able to login with phone number",So that I can access & manage my truck union,E3: Onboarding Transport Aggregator,Transport Aggregator,,"The TRANSPORT AGGREGATOR would be required to add his/her phone number.
+
+Upon verification - TRANSPORT AGGREGATOR should not be logged out of the system until they log out by themselves.
+
+Upon logging in the TRANSPORT AGGREGATOR is taken to the home dashboard where the TRANSPORT AGGREGATOR gets to choose from a list of his/her active drivers"
+"S29: As a Transport Aggregator, I should be able to add pictures of my union","As a Transport Aggregator, I should be able to add pictures of my union",So that I can attract customers from list of stores in the common application platform,E5: Setup Union Details,Transport Aggregator,,
+"S28: As a Transport Aggregator, I should be able to add my union office coordinates ","As a Transport Aggregator, I should be able to add my store coordinates ",So that consignee and drivers can discover my truck union office on the application platform ,E5: Setup Union Details,Transport Aggregator,,
+"S26: As a Transport Aggregator, I should be able to add union name, address, contact, description","As a Transport Aggregator, I should be able to add my store name, address, contact, description
+
+Contact will be the same as of the registered user",So that I can setup invoicing and build my catalogue,E5: Setup Union Details,Transport Aggregator,,We will need to input GST Number as well.
+"S63: As a TRANSPORT AGGREGATOR, I should be able to add Operational Hours to my unions","As a TRANSPORT AGGREGATOR, I should be able add Operational Hours to my unions",The conginee will be able to know my delivery timings,E5: Setup Union Details,Transport Aggregator,,
+"S33: As I TRANSPORT AGGREGATOR, I should be able to add a truck detail  to my catalog using a form
+","As I TRANSPORT AGGREGATOR, I should be able to add a truck detail to my catalog using a form",So that it appears in the list of my truck drivers ,E7: Adding Drivers,Transport Aggregator,,"For adding a product, we will need the following:
+
+1. Product Name
+2. Product Brand
+3. SKU
+4. Product Description
+5. Product Category
+6. Product Sub Category
+7. Product Properties
+8. Product Price
+9. Upto 5 pictures
+
+A button to hide item from customers.  "
+"S34: As a TRANSPORT AGGREGATOR, I should be able to edit a Driver profile in my catalog using a form","As a TRANSPORT AGGREGATOR, I should be able to edit a driver profile in my catalog using a form",So that it updates the attribute of my driver profile,E9: Updating driver,Transport Aggregator,,
+"S39: As a TRANSPORT AGGREGATOR, I should be able to manually mark a truck driver as unavailable","As a TRANSPORT AGGREGATOR, I should be able to manually mark a truck driver as unavailable",so that we cannot assignee him any work,E9: Updating driver,Transport Aggregator,,"This is same as updation of product. If as a TRANSPORT AGGREGATOR, I want a product not to be visible to the consignee for a short file, I should  be able to disable that driver from the union listing"
+S37: As a TRANSPORT AGGREGATOR I should be able to delete truck driver from my catalog,As a TRANSPORT AGGREGATOR I should be able to delete truck driver items from my catalog,So that it no more appears in my store,E11: Deleting Driver,Transport Aggregator,,"As a TRANSPORT AGGREGATOR, I should be able to delete multiple drivers from my catalog which are no longer existing.
+
+This would be possible by selecting the multiple drivers from the listing and then pressing a delete all button."
+"S49: As a TRANSPORT AGGREGATOR, I should be able to open an consignment item","As a TRANSPORT AGGREGATOR, I should be able to open a consignment item","So that I can get access to details like items, consignee, amount, payment etc",E40: Viewing all my consignments,Transport Aggregator,,"I should be able to access all the details of an order which include:
+
+1. Order number
+2. Consignee Name
+3. Date
+4. Status
+5. Items (Price Unit Total)
+6. Shipping Address
+7. Payment Method
+
+Also a tab to check the timeline of an order. "
+"S48: As a TRANSPORT AGGREGATOR, I should be able to filter my consignment based on date","As a TRANSPORT AGGREGATOR, I should be able to filter my consignment based  on date",So that I can get a list of filtered consignments,E40: Viewing all my consignments,Transport Aggregator,,
+"S47: As a TRANSPORT AGGREGATOR, I should be able to view all my historic songinment in a list","As a TRANSPORT AGGREGATOR, I should be able to view all my historic consignment in a list",So I can get access to the list of consignment,E40: Viewing all my consignments,Transport Aggregator,,"I have a list view of all my orders bifurcated on the basis of the status
+
+New
+Pending
+Awaiting Approval
+Approved
+Picked up
+Completed
+Cancelled"
+"S50: As a TRANSPORT AGGREGATOR, I should be able to change the status of the consignment","As a TRANSPORT AGGREGATOR, I should be able to change the status of the consignment",So that I can process my consignment,E41: Updating Consignment,Transport Aggregator,,"Status may include
+   - Picked up
+   - On the way
+   - Delivered"
+"S24: As a Transport Aggregator, I should be able to update my upi account details","As a Transport Aggregator, I should be able to update my upi account details",So that I can receive payments from my customers via UPI on a new account,E42: Payments Setup,Transport Aggregator,,
+"S4: As a Transport Aggregator, I should  be able to add my upi account details","As a Transport Aggregator, I should  be able to add my upi account details
+
+Upi account details includes: UPI ID",So that I can receive payments from my customer/conginee via UPI,E42: Payments Setup,Transport Aggregator,,
+"S52: As a TRANSPORT AGGREGATOR, I should be able to receive payments from consignees using UPI for my consignment","As a TRANSPORT AGGREGATOR, I should be able to receive payments from consignee using UPI for my cnsignment",So that I can collect the receivables,E43: Accepting Payments,Transport Aggregator,,
+"S55: As a TRANSPORT AGGREGATOR, I should be able to refund money to the consignee in case of cancellation","As a TRANSPORT AGGREGATOR, I should be able to refund money to the consignee in case of cancellation",So that I do not have to maintain ledgers or manually process refund transaction,E44: Processing refunds,Transport Aggregator,,
+"S32: As a TRANSPORT AGGREGATOR, I should be able to delete my account","As a TRANSPORT AGGREGATOR, I should be able to delete my account",So that I can discontinue any dysfunctional union work,E48: Account Settings,Transport Aggregator,,
+"S32: As a TRANSPORT AGGREGATOR, I should be able to disable my account","As a TRANSPORT AGGREGATOR, I should be able to disable my account",So that I can discontinue any dysfunctional in union,E48: Account Settings,Transport Aggregator,,
+"S59: As a TRANSPORT AGGREGATOR, I should be able to generate invoice for all my online consignment","As a TRANSPORT AGGREGATOR, I should be able to generate invoice for all my online consignment",So that I can issue a govt. compliant invoice to a consignee,E52: Invoicing,Transport Aggregator,,
+"S60: As a TRANSPORT AGGREGATOR, I should be able to retrieve all my invoices","As a TRANSPORT AGGREGATOR, I should be able to retrieve all my invoices",So that I can retrieve them for regulatory purpose,E52: Invoicing,Transport Aggregator,,
+"S62: As a TRANSPORT AGGREGATOR, I should be able to give my consignee a QR code","As a consignee, I should be able to give my consignee a QR code",So that they can scan it and get access to my union,E54: Invite consignee to Union,Transport Aggregator,,
+"S61: As a TRANSPORT AGGREGATOR, I should be able to invite consignee to my union with QR code or union id","As a TRANSPORT AGGREGATOR, I should be able to invite consignee to my union with QR code or union id",So that I can easily on board my consignee to get access to the store,E54: Invite consignee to Union,Transport Aggregator,,
