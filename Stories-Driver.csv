@@ -1,0 +1,17 @@
+﻿Story name,User want,So that,Epics,Component,Sprint,Points,Notes,story_id,Status,Task
+"S95: As a driver, I can signup with a mobile number",to use the application & take consignments,take consignments using the system,Onboarding Driver,Driver,,,,,ToDo,
+"S96: As a driver, I can receive OTP",Login/ to use union service system,He/she can be verified and login succesfully,,Driver,,,,,In Progress,
+"S97: As a driver, I can add my picture and relevant documents 
+(Identification card, driving license, Image, Vehicle image)",to register in union,He can join their.,,Driver,,,,,ToDo,
+"S98: As driver, i can receive notification for consignment request from Merchant side",take consignment from truck UNION,He can deliver the consignment and make money,,Driver,,,,,ToDo,
+"S99 As a driver, I can either accept or reject the requested consignment.",take consignment accordingly due to there availability,He can take consignment,,Driver,,,,,ToDo,
+"S100: As a driver, Recieve consignment from the consignee & move to delivery address
+",take consignment from the consignee & move to devilery address,he can reach the delevery address by navigation,,Driver,,,,,ToDo,
+"S101: As a driver, I can navigate the consignment's delivery location & can update the status of the consignment.",change the current status of the consignment,everyone know where the consignment really is,,Driver,,,,,ToDo,
+"S102 As driver, i should able to call consignee",to Contact consignee,He can contact- user for consignment delivery.,Consignment Delivery,Driver,,,,,ToDo,
+"S103: As driver, i can able update the consignment status whether it is received by consignee or not received.",update status of consignment,,,Driver,,,,,ToDo,
+"S104: As a driver, I can able to register my vehicle (add image, add vehicle documents)",set up vehicle details,,,Driver,,,,,ToDo,
+S106:As driver i can be able to logout from the app,As driver i can be able to logout from the app,he can take a break from the system,,Driver,,,,,ToDo,
+S107: As driver i can ask delivery code to consignee to end the consignment delivery ,As driver i can ask delivery code to consignee to end the consignment delivery ,end the consignment delivery,Consignment Delivery,Driver,,,,,ToDo,
+"S108: As a driver, I can select the union I want to register ","As a driver, I can select the union I want to register ",i can assign myself to a particular UNION,,Driver,,,,,ToDo,
+,,,,Driver,,,,,,
