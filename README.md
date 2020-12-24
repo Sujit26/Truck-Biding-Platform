@@ -3,13 +3,13 @@
 This project implements a web based applicaion to allow raising and allocation of transport booking requests.
 
 ### Command to Run ###  
-python3 -m venv env
-source env/bin/activate
-source env/bin/deactivate
-pip3 install django djangorestframework twilio pyotp python-decouple
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py runserver
+python3 -m venv env  
+source env/bin/activate  
+source env/bin/deactivate  
+pip3 install django djangorestframework twilio pyotp python-decouple  
+python3 manage.py makemigrations  
+python3 manage.py migrate  
+python3 manage.py runserver  
 
 
 ### What is this repository for? ###
