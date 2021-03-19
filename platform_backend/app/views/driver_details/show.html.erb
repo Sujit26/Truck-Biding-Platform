@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @driver_detail.user_id %>
+</p>
+
+<p>
+  <strong>Lisence number:</strong>
+  <%= @driver_detail.lisence_number %>
+</p>
+
+<p>
+  <strong>Adhaar card:</strong>
+  <%= @driver_detail.adhaar_card %>
+</p>
+
+<%= link_to 'Edit', edit_driver_detail_path(@driver_detail) %> |
+<%= link_to 'Back', driver_details_path %>

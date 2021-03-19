@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Driver Details</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Lisence number</th>
+      <th>Adhaar card</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @driver_details.each do |driver_detail| %>
+      <tr>
+        <td><%= driver_detail.user_id %></td>
+        <td><%= driver_detail.lisence_number %></td>
+        <td><%= driver_detail.adhaar_card %></td>
+        <td><%= link_to 'Show', driver_detail %></td>
+        <td><%= link_to 'Edit', edit_driver_detail_path(driver_detail) %></td>
+        <td><%= link_to 'Destroy', driver_detail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Driver Detail', new_driver_detail_path %>

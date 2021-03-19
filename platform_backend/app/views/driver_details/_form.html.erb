@@ -1,0 +1,32 @@
+<%= form_with(model: driver_detail) do |form| %>
+  <% if driver_detail.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(driver_detail.errors.count, "error") %> prohibited this driver_detail from being saved:</h2>
+
+      <ul>
+        <% driver_detail.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :user_id %>
+    <%= form.text_field :user_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lisence_number %>
+    <%= form.text_field :lisence_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :adhaar_card %>
+    <%= form.text_field :adhaar_card %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
