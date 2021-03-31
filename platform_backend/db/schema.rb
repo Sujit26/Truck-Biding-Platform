@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -10,26 +12,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_19_204835) do
-
-  create_table "driver_details", force: :cascade do |t|
-    t.integer "user_id", null: false
-    t.string "lisence_number"
-    t.string "adhaar_card"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["user_id"], name: "index_driver_details_on_user_id"
+ActiveRecord::Schema.define(version: 20_210_319_204_835) do
+  create_table 'driver_details', force: :cascade do |t|
+    t.integer 'user_id', null: false
+    t.string 'lisence_number'
+    t.string 'adhaar_card'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
+    t.index ['user_id'], name: 'index_driver_details_on_user_id'
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "email"
-    t.string "phone_number"
-    t.boolean "is_verified"
-    t.string "user_type"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+  create_table 'users', force: :cascade do |t|
+    t.string 'name'
+    t.string 'email'
+    t.string 'phone_number'
+    t.boolean 'is_verified'
+    t.string 'user_type'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
   end
 
-  add_foreign_key "driver_details", "users"
+  add_foreign_key 'driver_details', 'users'
 end
