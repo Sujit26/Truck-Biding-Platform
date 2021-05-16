@@ -9,7 +9,7 @@ class UnionBooking extends React.Component {
         <div class="column">
           <TruckUnionCard {...this.union}/>
         </div>
-        <div class="column">
+        <div class="column"  style={{height:"500"}}>
           <BookingForm />
         </div>
       </div>

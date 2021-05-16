@@ -3,10 +3,11 @@ import React from "react";
 import TextField from "@material-ui/core/TextField";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import DatePicker from "react-date-picker";
-
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import Icon from "@material-ui/core/Icon";
+import Loading from "../Global/Loading"
+
 const useStyles = makeStyles((theme) => ({
   button: {
     margin: theme.spacing(1),
@@ -26,8 +27,12 @@ export default function BookingForm() {
     getOptionLabel: (option) => option,
   };
 
+  const handleClick = {
+
+  }
+
   return (
-    <div style={{ width: 300 }}>
+    <div style={{ height: "1000"}}>
       <Autocomplete
         {...defaultCities}
         id="Pick Up City"
@@ -44,7 +49,6 @@ export default function BookingForm() {
           <TextField {...params} label="Drop off City" margin="normal" />
         )}
       />
-
       <Autocomplete
         {...truckTypePros}
         id="Truck Type"
@@ -55,16 +59,17 @@ export default function BookingForm() {
       />
 
       <div>
-        Pick up Date
+        <p style={{ marginRight: 20 }}>Pick up Date</p>
         <DatePicker onChange={onChange} value={date} />
       </div>
 
       <Button
-        onClick={onclick}
+        onClick={handleClick}
         variant="contained"
         color="primary"
         className={classes.button}
-        endIcon={<Icon>send</Icon>}>
+        endIcon={<Icon>send</Icon>}
+      >
         Request for Consignment
       </Button>
     </div>
