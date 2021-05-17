@@ -11,7 +11,7 @@ Technology stack we used React.js, Django & sqlite
 
 ### How do I get set up? ###
 
-Clone git repository: 
+Clone git repository:   
 ```git clone https://bitbucket.org/sodhi/tbas/src/master/```
 
 activate virtual environments  
@@ -34,7 +34,8 @@ Deactivate the virtualenv
 
 
 #### Set up for FRONT-END
- In the project directory, you can run:
+ In the project directory, you can run:  
+ Checkout to front-end branch
 
 #### `yarn start`
 
