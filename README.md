@@ -9,7 +9,7 @@ truck drivers by using heavily and current technology stack.
 It contains frontend & backend for our software.
 Technology stack we used React.js, Django & sqlite
 
-### `How do I get set up?` ###
+### How do I get set up? ###
 
 Clone git repository: 
 ```git clone https://bitbucket.org/sodhi/tbas/src/master/```
@@ -19,13 +19,18 @@ activate virtual environments
 
 Install
 
-    Install virtualenv <pip3 install virtualenv>
+Install virtualenv   
+    ```pip3 install virtualenv```
 
 Usage
 
-    Create a virtualenv <virtualenv .venv>
-    Activate the virtualenv <source .venv/bin/activate>
-    Deactivate the virtualenv <deactivate>
+Create a virtualenv    
+    ```virtualenv .venv```  
+Activate the virtualenv 
+    ```source .venv/bin/activate```   
+
+Deactivate the virtualenv   
+    ```deactivate```
 
 
 #### Set up for FRONT-END
