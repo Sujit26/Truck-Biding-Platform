@@ -37,6 +37,8 @@ Deactivate the virtualenv
  In the project directory, you can run:  
  Checkout to front-end branch
 
+ ```git checkout modeling-users```
+
 #### `yarn start`
 
 Runs the app in the development mode.<br />
