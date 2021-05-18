@@ -1,7 +1,5 @@
-import { DriveEtaSharp } from "@material-ui/icons"
 
-const drivers = [
-    {
+const drivers = [    {
         id: "0",
         name: "Hari Prasad",
         email: "xyz@email.com",
