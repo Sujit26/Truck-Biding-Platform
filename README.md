@@ -9,6 +9,24 @@ truck drivers by using heavily and current technology stack.
 It contains frontend & backend for our software.
 Technology stack we used React.js, Django & sqlite
 
+# SCREENSHOTS
+<p>
+Showing Unions
+    <img src="Screenshots/FetchUnion.png" alt="drawing" />
+Driver Details Page
+    <img src="Screenshots/FetchDriver.png" alt="drawing" />
+Driver Registration Page    
+    <img src="Screenshots/AddDriver.png" alt="drawing" />
+Consignment Request Page    
+    <img src="Screenshots/RequestConsignment.png" alt="drawing" />
+Fetch Consignment Page
+    <img src="Screenshots/Consginments.png" alt="drawing" />
+FitlerConsignment Page
+    <img src="Screenshots/FilterConsignment.png" alt="drawing" />
+</p>
+Active Consignment Page
+    <img src="Screenshots/ActiveConsignment.png" alt="drawing" />
+
 ### How do I get set up? ###
 
 Clone git repository:   
