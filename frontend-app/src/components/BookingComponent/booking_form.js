@@ -6,7 +6,7 @@ import DatePicker from "react-date-picker";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import Icon from "@material-ui/core/Icon";
-import Loading from "../Global/Loading"
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -27,12 +27,10 @@ export default function BookingForm() {
     getOptionLabel: (option) => option,
   };
 
-  const handleClick = {
-
-  }
+  const handleClick = {};
 
   return (
-    <div style={{ height: "1000"}}>
+    <div style={{ height: "1000" }}>
       <Autocomplete
         {...defaultCities}
         id="Pick Up City"
@@ -63,15 +61,20 @@ export default function BookingForm() {
         <DatePicker onChange={onChange} value={date} />
       </div>
 
-      <Button
-        onClick={handleClick}
-        variant="contained"
-        color="primary"
-        className={classes.button}
-        endIcon={<Icon>send</Icon>}
+      <Link
+        to="/active_consignment"
+        style={{ textDecoration: "none", color: "inherit" }}
       >
-        Request for Consignment
-      </Button>
+        <Button
+          onClick={handleClick}
+          variant="contained"
+          color="primary"
+          className={classes.button}
+          endIcon={<Icon>send</Icon>}
+        >
+          Request for Consignment
+        </Button>
+      </Link>
     </div>
   );
 }

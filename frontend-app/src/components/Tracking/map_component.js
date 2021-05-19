@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
 import ReactDOM from "react-dom";
 import MapContainer from "../../components/Global/maps";
 
-export default function MapComponent() {
-    return (
-        <div>
-            <MapContainer />
-        </div>
-    )
+export default function MapComponent(props) {
+  const consignment = props.consignment;
+  return <MapContainer consignment = {consignment}/>;
 }

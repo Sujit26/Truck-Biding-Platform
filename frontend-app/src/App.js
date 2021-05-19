@@ -13,6 +13,8 @@ import UnionDrivers from "./screens/TruckUnion/union_drivers";
 import UnionConsignments from "./screens/TruckUnion/consignments";
 import DriverFormScreen from "./screens/TruckUnion/driver_form_screen";
 import TrackingScreen from "./screens/tracking_screen";
+import UnionProfile from "./screens/TruckUnion/union_profile";
+
 
 function App() {
   return (
@@ -34,6 +36,9 @@ function App() {
           {/* UNION PATHS */}
           <Route path="/union/home">
             <UnionHome />
+          </Route>
+          <Route path="/union/profile">
+            <UnionProfile />
           </Route>
           <Route path="/union/drivers/">
             <UnionDrivers />

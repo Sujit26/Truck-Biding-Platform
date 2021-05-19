@@ -6,19 +6,17 @@ import { useParams } from "react-router";
 import consignments from "../components/Data/consignmnets";
 
 export default function TrackingScreen(props) {
-    let {id} = useParams();
-    const consingment =  consignments[id];
+  let { id } = useParams();
+  const consingment = consignments[id];
 
   return (
     <div>
       <Grid container spacing={3}>
-        <Grid item xs={2}>
-            <ConsignmnetComponent id ={id}/>
-            
+        <Grid item xs={3}>
+          <ConsignmnetComponent id={id} />
         </Grid>
-        <Grid item xs={10}>
-        MapComponent
-            {/* <MapComponent/> */}
+        <Grid item xs={9}>
+          <MapComponent consignment= {consingment}/>
         </Grid>
       </Grid>
     </div>

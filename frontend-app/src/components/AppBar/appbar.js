@@ -90,7 +90,9 @@ export default function PrimarySearchAppBar() {
         return <MenuItem onClick={handleMenuClose}>Consginment-{key}</MenuItem>;
       })}
 
-      <MenuItem onClick={handleMenuClose}>Consginment</MenuItem>
+      <Link to="/union/profile/">
+        <MenuItem onClick={handleMenuClose}>Consginment</MenuItem>
+      </Link>
       <Link to="/union/drivers/">
         <MenuItem onClick={handleMenuClose}>My Drivers</MenuItem>
       </Link>
@@ -106,8 +108,13 @@ export default function PrimarySearchAppBar() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <Link to="/union/drivers/" style={{ textDecoration: "none", color: "inherit" }}>
+      <Link to="/union/profile/" style={{ textDecoration: "none", color: "inherit" }}>
+        <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
+      </Link>
+      <Link
+        to="/union/drivers/"
+        style={{ textDecoration: "none", color: "inherit" }}
+      >
         <MenuItem onClick={handleMenuClose}>My Drivers</MenuItem>
       </Link>
     </Menu>
@@ -124,19 +131,19 @@ export default function PrimarySearchAppBar() {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
-        <Link
-          to="/active_consignment"
-          style={{ textDecoration: "none", color: "inherit" }}
-          >
-          <MenuItem>
+      <Link
+        to="/active_consignment"
+        style={{ textDecoration: "none", color: "inherit" }}
+      >
+        <MenuItem>
           <IconButton aria-label="show 4 new mails" color="inherit">
             <Badge badgeContent={4} color="secondary">
               <MailIcon />
             </Badge>
           </IconButton>
-        <p>Messages</p>
-      </MenuItem>
-        </Link>
+          <p>Messages</p>
+        </MenuItem>
+      </Link>
       <Link
         to="/consginment"
         style={{ textDecoration: "none", color: "inherit" }}
